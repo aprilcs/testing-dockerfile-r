@@ -17,3 +17,5 @@ RUN apt-get update \
       "r-base=3.6.0-1bionic" \
       "rstudio-server=1.2.1335" \
     && rm -rf /var/lib/apt/lists/*
+    
+ENV HOME=/tmp
